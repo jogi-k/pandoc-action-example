@@ -88,7 +88,8 @@ You can also:
 Remember that wildcard substitution (say, `pandoc *.md`) or other shell features frequently used with pandoc do not work inside GitHub Actions yaml files `args:` fields.
 Only [GitHub Actions context and expression syntax](https://help.github.com/en/actions/reference/context-and-expression-syntax-for-github-actions) can be used here.
 If you want to make use of such shell features, you have to run that in a separate step in a `run` field and store the result in the GitHub actions context.
-The below workflow includes an example of how to do this to concatenate several input files.
+The below workflow includes an example of how to do this to concatenate several input files. 
+Test
 
 You can see it in action (haha!) [here](http://github.com/maxheld83/pandoc-example).
 
